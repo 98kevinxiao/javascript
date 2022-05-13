@@ -1,12 +1,3 @@
-> 應用名稱：scannerpro
-> 下載地址：https://apps.apple.com/cn/app/id333710667
-> 解鎖說明：解鎖高級會員權限
-
-[rewrite_local]
-
-# ～ ScannerPro解鎖會員權限
-^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-response-body https://raw.githubusercontent.com/98kevinxiao/javascript/main/scannerpro.js
-^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-response-body https://raw.githubusercontent.com/98kevinxiao/javascript/main/scannerpro.js
 [mitm] 
 
 hostname=api.revenuecat.com
