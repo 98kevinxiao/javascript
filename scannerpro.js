@@ -2,8 +2,6 @@
 > 下載地址：https://apps.apple.com/cn/app/id333710667
 > 解鎖說明：解鎖高級會員權限
 
-            ⛔⛔⛔
-
 [rewrite_local]
 
 # ～ ScannerPro解鎖會員權限
