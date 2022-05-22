@@ -10,7 +10,6 @@ hostname=api.bilibili.com
 
 //因为常常观看港澳台番剧后，B站连着外网，而我下次启动时，需要让其直连模式（主界面不同），有此需求，故写了一个简单脚本
 
-
 //⚠️StreamingSE自行替换为自己的B站策略组名称
 
 const message = {
