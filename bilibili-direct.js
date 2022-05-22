@@ -1,8 +1,7 @@
  [rewrite_local]
 
 # ～ B站启动时开启直连模式
-^https?:\/\/api\.bilibili\.com\/x\/offline\/version url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_startup_direct.js
-
+^https?:\/\/api\.bilibili\.com\/x\/offline\/version url script-response-body https://raw.githubusercontent.com/98kevinxiao/javascript/main/bilibili-direct.js
 [mitm] 
 
 hostname=api.bilibili.com
