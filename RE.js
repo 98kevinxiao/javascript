@@ -35,5 +35,5 @@ var j=JSON['parse'](i);
 var k=a(j['countryCode'])+'\x20'+d(e(f(j['country'])),b(f(j['regionName']),f(j['city'])));
 var l=j['timezone']['replace'](/\_/g,'\x20')+'\x20·\x20'+c(j['as'])+'\x20·\x20'+j['query'];
 var m=j['query'];
-var n='-----------------------------------'+'\x0a\x0a'+d(e(f(j['country'])),b(f(j['regionName']),f(j['city'])))+'\x0a\x0a'+j['query']+'\x0a\x0a'+'经度:'+j['lat']+'\x20\x20'+'纬度:'+j['lon']+'\x0a\x0a'+j['isp']+'\x0a\x0a'+j['org'];
+var n='-----------------------------------'+'\x0a\x0a'+d(e(f(j['country'])),b(f(j['regionName']),f(j['city'])))+'\x0a\x0a'+j['query']+'\x0a\x0a'+'经度:'+j['lon']+'\x20\x20'+'纬度:'+j['lat']+'\x0a\x0a'+j['isp']+'\x0a\x0a'+j['org'];
 $done({'title':k,'subtitle':l,'ip':m,'description':n});
