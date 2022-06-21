@@ -35,5 +35,5 @@ var obj = JSON.parse(body);
 var title =flags.get(obj['countryCode']) + ' '+ obj['country'];
 var subtitle =City_ValidCheck(obj['city']) +'·'+ obj['regionName'] + obj['query']
 var ip = obj['query'];
-var description='-----------------------------------'+'\x0a\x0a'+d(e(f(j['country'])),b(f(j['regionName']),f(j['city'])))+'\x0a\x0a'+j['query']+'\x0a\x0a'+'经度:'+j['lon']+'\x20\x20'+'纬度:'+j['lat']+'\x0a\x0a'+j['isp']+'\x0a\x0a'+j['org'];
+var description='-----------------------------------'+'\x0a\x0a'+d(e(f(obj['country'])),b(f(obj['regionName']),f(obj['city'])))+'\x0a\x0a'+obj['query']+'\x0a\x0a'+'经度:'+j['lon']+'\x20\x20'+'纬度:'+obj['lat']+'\x0a\x0a'+obj['isp']+'\x0a\x0a'+obj['org'];
 $done({title, subtitle, ip, description});
