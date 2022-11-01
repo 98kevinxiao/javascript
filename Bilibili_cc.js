@@ -5,7 +5,7 @@
 [rewrite_local]
 
 # ～ 嗶哩嗶哩繁体CC字幕转中文简体
-^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/bilibili_cc.js
+^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body https://raw.githubusercontent.com/98kevinxiao/javascript/main/Bilibili_cc.js
 
 [mitm]
 
