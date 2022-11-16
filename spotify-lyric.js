@@ -1,3 +1,6 @@
+spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/98kevinxiao/javascript/main/spotify-lyric.js
+
+
 /*
 Spotify非中文歌词翻译 Surge和Loon需要iOS15 (仓库地址: https://github.com/app2smile/rules)
 采用百度翻译接口进行翻译,需要先免费申请百度翻译api的id和密钥,然后根据不同软件进行不同配置
@@ -10,9 +13,6 @@ Spotify非中文歌词翻译 Surge和Loon需要iOS15 (仓库地址: https://gith
 
 ------------软件配置(在文本模式下,填入下方内容)--------------
 如果软件已经加载过Spotify解锁脚本(https://github.com/app2smile/rules#spotify),可不配置MITM域名
-spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/98kevinxiao/javascript/main/spotify-lyric.js
-
-
 qx:
     - 自行配置MITM域名: spclient.wg.spotify.com
     - 手动修改填入下方的appid和securityKey密钥, 并配置重写,类型为script-response-body,
