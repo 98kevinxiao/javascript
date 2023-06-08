@@ -8,7 +8,7 @@
 //已支持通过BoxJs修改地区。在BoxJs的数据查看器输入“地区”，数据编辑器输入地区拼音
 
 const $ = new Env("查询油价");
-var region = $.getdata("地区") || "hubei/jinmen";
+var region = $.getdata("地区") || "zhejiang";
 
 const query_addr = `http://m.qiyoujiage.com/${region}.shtml`;
 
