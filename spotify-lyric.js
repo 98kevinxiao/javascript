@@ -6,8 +6,8 @@ const KEY_APPID = $.getdata('appid');
 const KEY_SECURITYKEY = $.getdata('securityKey');
 
 const options = {
-    appid: KEY_APPID,
-    securityKey: KEY_SECURITYKEY
+    appid: 20220707001266616,
+    securityKey: 3m5R990BPsKzkfCYqfSK
 };
 
 // text-decoder
